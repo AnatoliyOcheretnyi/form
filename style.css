@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|PT+Sans+Caption&subset=cyrillic');
+
+*{box-sizing: border-box;}
+body {background: #f69a73;}
+.decor {
+  position: relative;
+  max-width: 400px;
+  margin: 50px auto 0;
+  background: white;
+  border-radius: 30px;
+}
+.form-inner {padding: 50px;}
+.form-inner input{
+  display: block;
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 10px;
+  background: #E9EFF6;
+  line-height: 40px;
+  border-width: 0;
+  border-radius: 20px;
+  font-family: 'Comfortaa', cursive;
+}
+.form-inner input[type="submit"] {
+  margin-top: 30px;
+  background: #f69a73;
+  border-bottom: 4px solid #d87d56;
+  color: white;
+  font-size: 14px;
+}
+ legend {
+  margin-top: 0;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 500;
+  font-size: 24px;
+  color: #707981;
+}
+
+.name {font-family: 'PT Sans Caption', sans-serif;}
+
+fieldset {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  border-radius: 25px;
+}
